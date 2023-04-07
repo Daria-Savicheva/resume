@@ -7,6 +7,7 @@ jobs:
       - name: Print by Makefile
       - uses: action/checkout@v3
       - uses: action/setup-node@v3
-      - run: npm install
+      - name: npm install
+        run: npm install
       - name: make say-hello
         run: make say-hello
