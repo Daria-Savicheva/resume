@@ -1,2 +1,2 @@
 say-hello:
-	node console.log('Hello, World')
+	node hello.js
