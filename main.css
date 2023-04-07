@@ -1,6 +1,16 @@
 @font-face {
     font-family: 'Baron N';
-    src: url(__types__/baronneue/Baron\ Neue.otf);
+    src: url(__fonts__/baronneue/Baron\ Neue.otf);
+}
+@font-face {
+    font-family: 'Fira sans';
+    src: url(__fonts__/firasans/FiraSans-Light.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-weight: 700;
+    font-family: 'Fira sans';
+    src: url(__fonts__/firasans/FiraSans-Medium.otf);
 }
 body {
     background-color: #4572ec;
@@ -15,7 +25,9 @@ p.resume {
 p.position {
     color: rgb(255, 253, 250);
     margin: 0 0 30px 30px;
-    font-size: 20px;
+    font-family: 'Fira sans';
+    font-weight: 700;
+    font-size: 30px;
 }
 div.block_resume {
     background-color: rgb(255, 253, 250);
@@ -28,4 +40,39 @@ div.block_resume {
     margin-right: auto;
 
     border-radius: 20px;
+}
+ul {
+    list-style-type: none;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 50px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+nav li {
+    flex: 1;
+	display: flex;
+    padding: 5px;
+}
+a {
+	text-decoration: none;
+	
+}
+
+nav a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+	text-transform: uppercase;
+	color: black;
+	font-size: 14px;
+	padding: 0 10px;
+    background-color: #eef4f9;
+    font-family: 'Fira sans';
+    font-weight: 200;
 }

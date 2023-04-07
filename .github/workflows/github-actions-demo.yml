@@ -4,10 +4,9 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Print by Makefile
-      - uses: action/checkout@v3
-      - uses: action/setup-node@v3
-      - name: npm install
-        run: npm install
-      - name: make say-hello
-        run: make say-hello
+      - name: Print to console
+        run: echo Hello Git Actions
+      - name: Print Make
+        run : |
+          echo First line!
+          echo Second line!
