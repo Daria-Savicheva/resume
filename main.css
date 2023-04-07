@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Baron N';
-    src: url(baronneue/Baron\ Neue.otf);
+    src: url(__types__/baronneue/Baron\ Neue.otf);
 }
 body {
     background-color: #4572ec;
