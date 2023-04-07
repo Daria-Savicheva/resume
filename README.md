@@ -1,1 +1,1 @@
-[![Actions Status]https://github.com/Daria-Savicheva/resume/actions/workflows/github-actions-deno.yml/badge.svg]
+<a href="https://github.com/Daria-Savicheva/resume/actions/workflows/github-actions-deno.yml/badge.svg"></a>
