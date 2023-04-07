@@ -1,2 +1,1 @@
-###GitHub Action
-![GitHub Action] (https://github.com/Daria-Savicheva/resume/actions/workflows/github-actions-deno.yml/badge.svg)
+![GitHub Action](https://github.com/Daria-Savicheva/resume/actions/workflows/github-actions-demo.yml/badge.svg)
