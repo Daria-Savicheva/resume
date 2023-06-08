@@ -13,7 +13,11 @@
     src: url(__fonts__/firasans/FiraSans-Medium.otf);
 }
 body {
-    background-color: #4572ec;
+    background-size: 21.6px 21.6px;
+    background-repeat: repeat;
+    background-position: 10px 1px, 20.4px 11.4px;
+    background-color:#4572ec;
+    background-image: radial-gradient(circle, #4577EC 2px, transparent 5px), radial-gradient(circle, #4577EC 2px, transparent 5px);
 }
 p.resume { 
     font-family: 'Baron N';
